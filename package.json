@@ -4,21 +4,24 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npx @cloudflare/next-on-pages",
     "start": "node .next/standalone/server.js",
     "lint": "next lint",
     "gcp-build": "npm run build"
   },
   "dependencies": {
-    "next": "14.1.3",
+    "next": "15.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
     "eslint": "8.56.0",
-    "eslint-config-next": "14.1.3",
+    "eslint-config-next": "15.0.3",
     "typescript": "5.3.3",
     "@types/react": "18.2.41",
-    "@types/node": "20.11.20"
+    "@types/node": "20.11.20",
+    "@cloudflare/next-on-pages": "^1.13.16",
+    "@cloudflare/workers-types": "^4.20240208.0",
+    "wrangler": "^3.33.0"
   }
 }
