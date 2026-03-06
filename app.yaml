@@ -1,0 +1,7 @@
+runtime: nodejs20
+env: standard
+handlers:
+  - url: /_next/static
+    static_dir: .next/static
+  - url: /.*
+    script: auto
