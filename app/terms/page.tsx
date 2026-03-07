@@ -11,7 +11,7 @@ const sections = [
   {
     title: "Who we are",
     body:
-      "christinesonapps is operated by Christineson Ventures LLC (formerly Fitsii LLC), located at 502 W 7TH St Ste 100, Erie, Pennsylvania, 16502-1333, United States."
+      "christinesonapps is operated by Christineson Ventures LLC, located at 502 W 7TH St Ste 100, Erie, Pennsylvania, 16502-1333, United States."
   },
   {
     title: "Eligibility & Accounts",

@@ -8,7 +8,7 @@ const space = Space_Grotesk({ subsets: ["latin"], variable: "--font-space" });
 
 export const metadata: Metadata = {
   title: "christinesonapps.com – Modern Email Client",
-  description: "Fast, private, desktop-class email client inspired by eM Client."
+  description: "Fast, private, standalone desktop-class email client."
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

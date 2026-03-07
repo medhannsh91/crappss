@@ -93,9 +93,9 @@ export default function HomePage() {
         <div>
           <h1>Fast, private email without the noise.</h1>
           <p>
-            christinesonapps is a desktop-class email client inspired by the
-            reliability of eM Client. Connect multiple accounts, sort by
-            priority, and glide through mail with keyboard-first speed.
+            christinesonapps is a standalone desktop-class email client. Connect
+            multiple accounts, sort by priority, and glide through mail with
+            keyboard-first speed.
           </p>
           <div className="chip-row">
             <span className="chip">Unified inbox with rules</span>

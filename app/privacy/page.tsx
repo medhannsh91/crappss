@@ -11,7 +11,7 @@ const sections = [
   {
     title: "Who we are",
     body:
-      "christinesonapps is provided by Christineson Ventures LLC (formerly Fitsii LLC), 502 W 7TH St Ste 100, Erie, Pennsylvania, 16502-1333, United States. Contact: administrator@christinesonapps.com."
+      "christinesonapps is provided by Christineson Ventures LLC, 502 W 7TH St Ste 100, Erie, Pennsylvania, 16502-1333, United States. Contact: administrator@christinesonapps.com."
   },
   {
     title: "Information we collect",
