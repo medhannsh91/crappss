@@ -61,7 +61,7 @@ const sections = [
   {
     title: "Indemnification",
     body:
-      "You will indemnify and hold Christineson Ventures LLC harmless from claims arising from your misuse of the service or violation of these Terms."
+      "You agree to indemnify, defend, and hold Christineson Ventures LLC harmless from any claims, damages, or expenses arising from misuse of the service or violation of these Terms."
   },
   {
     title: "Termination",
