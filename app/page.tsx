@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 
 const SECTIONS = ["features", "support", "download", "license"] as const;
 type SectionId = (typeof SECTIONS)[number];
@@ -79,6 +80,9 @@ export default function HomePage() {
               {label}
             </button>
           ))}
+          <Link href="/terms" className="nav-btn" prefetch={false}>
+            Terms
+          </Link>
         </nav>
         <button className="cta" type="button" onClick={() => activate("download")}>
           Get christinesonapps
