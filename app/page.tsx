@@ -323,6 +323,10 @@ export default function HomePage() {
 
       <footer>
         Built by christinesonapps.com · Privacy-first email that respects your time.{" "}
+        <Link href="/privacy" prefetch={false} style={{ textDecoration: "underline" }}>
+          Privacy
+        </Link>{" "}
+        ·{" "}
         <Link href="/terms" prefetch={false} style={{ textDecoration: "underline" }}>
           Terms
         </Link>
