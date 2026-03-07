@@ -321,7 +321,12 @@ export default function HomePage() {
         </ul>
       </section>
 
-      <footer>Built by christinesonapps.com · Privacy-first email that respects your time.</footer>
+      <footer>
+        Built by christinesonapps.com · Privacy-first email that respects your time.{" "}
+        <Link href="/terms" prefetch={false} style={{ textDecoration: "underline" }}>
+          Terms
+        </Link>
+      </footer>
     </div>
   );
 }
